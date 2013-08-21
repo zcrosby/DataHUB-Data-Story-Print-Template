@@ -1,0 +1,161 @@
+body, html{
+	font-family: Verdana, Geneva, sans-serif;
+	height: 100%;
+}
+
+.blue{
+	color: #0681C5;
+}
+
+.dark-blue{
+	color: #061d68;
+}
+
+.purple{
+	color: #a44499;
+}
+
+.gray{
+	color: #808080;
+}
+
+.dark-gray{
+	color: #636466;
+}
+
+.black{
+	color: #000;
+}
+
+.page-header{
+	color: #0681C5;
+	text-align: center;
+}
+
+.wrapper{
+	position: relative;
+	width: 860px;
+	margin: 20px auto;
+	min-height: 100%;
+
+}
+
+.page-header h1{
+	font-size: 28px;
+}
+
+.page-header h2{
+	font-size: 24px;
+}
+
+.page-header h3{
+	font-size: 18px;
+}
+
+.question-description {
+	font-size: 12px;
+	margin: 20px auto 10px auto;
+}
+
+/*
+Title Page 1 Specs
+*/
+.title-page-img{
+    width: 144px;
+    height: auto;
+    margin: 40px auto;
+}
+
+.title-page1 p{
+	font-weight: normal;
+	font-size: 20px;
+	width:80%;
+	margin: 20px auto 0px auto;
+}
+
+.title-page-meta{
+	margin-top: 100px;
+}
+
+.title-page-meta p{
+	font-size: 14px;
+}
+
+/*
+Intro Page2 
+&
+Text Frame Page3 Specs 
+*/
+
+.frame-header{
+	font-size: 20px;
+	font-weight: normal;
+}
+.frame{
+	margin: 0 auto;
+	width: 81%;
+	height: 400px;
+	padding: 20px;
+	border:thin solid #cccccc;
+}
+
+.frame .content{
+	font-size: 15px;
+}
+
+.frame p ul,
+.frame p li{
+	display: inline;
+	margin:0; padding:0;
+}
+
+
+/*
+Weave Included Page4
+*/
+
+.frame-subhead{
+	font-size: 16px; 
+}
+
+.weave-content li{
+
+}
+
+
+
+
+/*
+Footer Specs
+*/
+.page-number{
+	width:100%;
+	text-align: center;
+	font-size: 8px;
+	margin-top: 15px;
+}
+
+#footer{
+	/*display: none;*/
+	position: absolute;
+	bottom: 15px;
+	width: 860px;
+	height: 30px;
+	padding-bottom: 30px;
+	color: #000;
+	font-size: 8px;
+	text-align: left;
+} 
+
+#footer .content{
+	float:left;
+}
+
+.hub-logo{
+	float:right;
+	width:110px;
+}
+
+.page-break{
+	page-break-after: always;
+}
