@@ -113,7 +113,6 @@ Text Frame Page3 Specs
 /*
 Weave Included Page4
 */
-
 .frame-subhead{
 	font-size: 16px; 
 }
@@ -123,7 +122,114 @@ Weave Included Page4
 }
 
 
+/*
+Appendix Page 5 Specs
+*/
 
+.appendix .page-header h1{
+	letter-spacing: 7px;
+}
+
+.appendix .page-header h2, h3{
+	margin: 0;
+}
+
+.appendix .page-header h3{
+	font-size: 12px;
+}
+
+.appendix .page-header h4{
+	font-size: 20px;
+}
+
+/*data-sources*/
+.source h1, .source h2,
+.source h3, .source h4,
+.source h5{
+	margin:0;
+}
+
+.appendix .data-sources h5{
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.source{
+	display: inline-block;
+
+}
+
+.source .source-pic{
+	float: left;
+	width: 50px;
+	height: 50px;	
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+.source .source-label{
+	float: left;
+}
+
+/*related-terms*/
+.appendix .related-terms h4{
+	color: #11b258;
+}
+
+.appendix .related-terms h5{
+	font-weight: normal;
+}
+
+.appendix .related-terms ul{
+	list-style-type: none;	
+}
+
+.appendix .related-terms ul h4{
+	color: #87c879;	
+}
+
+.appendix .related-terms ul li ul{
+	margin-top: -20px;
+	font-size: 13px;	
+}
+
+.appendix .related-terms ul li ul li{
+	line-height: 25px;
+	color: #636466;	
+}
+
+
+/*related-stories*/
+.story h1, .story h2,
+.story h3, .story h4,
+.story h5, .story h6{
+	margin: 0;
+} 
+
+.story{
+	display: inline-block;
+}
+
+.story h4, h5{
+	font-weight: normal;
+}
+
+.story .story-pic{
+	float: left;
+	width: 140px;
+	height: 140px;	
+	overflow: hidden;
+	margin: 0px 50px 30px 0px;
+}
+
+.story .story-pic{
+	float: left;
+}
+
+.story .story-label{
+	width: 860px;
+	margin-top: 45px;
+}
 
 /*
 Footer Specs
@@ -156,6 +262,16 @@ Footer Specs
 	width:110px;
 }
 
-.page-break{
-	page-break-after: always;
+@media all {
+	.page-break	{ 
+		display: none; 
+	}
 }
+
+@media print {
+	.page-break	{ 
+		display: block; 
+		page-break-before: always; 
+	}
+}
+
