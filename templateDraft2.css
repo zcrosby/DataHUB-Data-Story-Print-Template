@@ -101,6 +101,7 @@ Text Frame Page3 Specs
 
 .frame .content{
 	font-size: 15px;
+	line-height: 28px;
 }
 
 .frame p ul,
@@ -114,11 +115,17 @@ Text Frame Page3 Specs
 Weave Included Page4
 */
 .frame-subhead{
-	font-size: 16px; 
+	font-size: 18px;
+	line-height: 22px;
 }
 
-.weave-content li{
+.weave-content{
+	color: #636466;
+	font-size: 12px;
+}
 
+.weave-content p{
+	width: 860px;
 }
 
 
